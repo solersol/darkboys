@@ -38,8 +38,8 @@ const App = () => {
   //   return <LoadingScreen />;
   // }
 return(
-  <main className="relative bg-[#000]">
-    {/* <Nav /> */}
+  <main className="relative bg-[#14002a]">
+    <Nav />
    
 
     <section className="xl:padding-l wide:padding-r padding-b bg-cover bg-center" style={{ backgroundImage: `url(${bgImage})` }}>
@@ -65,7 +65,7 @@ return(
     <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${main3})` }}><About2 /></section> */}
     
  
-   
+    <section className="padding "><Chart /></section>
     <section className=""><StickyFooter /></section>
   </main>
 );
